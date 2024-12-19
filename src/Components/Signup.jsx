@@ -41,6 +41,7 @@ const Signup = () => {
         <div>
         <h3> Name : {user.displayName}</h3>
         <h3> Email: {user.email} </h3>
+        <h3><img src={user.photoURL} alt="" /></h3>
       </div>
       </>
       ) : (
